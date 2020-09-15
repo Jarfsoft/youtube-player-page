@@ -6,13 +6,36 @@
 </head>
     <body>
         <nav>
-            <image src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg" height= "100px" width="100px">
-            <input type="text" name="search" placeholder="search">
-            <button type="button" height="20px" width="12px"><i class="fa fa-search"></i></button>
+            <div>
+                <image src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg" height= "100px" width="100px">
+            </div>
+
+            <div>
+                <input type="text" name="search" placeholder="search">
+                <button type="button" ><i class="fa fa-search"></i></button>
+            </div>
+
+            <div id="add-video-playlist">
+                <i class="fa fa-file-video-o" aria-hidden="true" style="font-size:24px"></i>
+            </div>
+
+            <div id="bell">
+                <i class="fa fa-bell" style="font-size:24px"></i>
+            </div>
+
+            <div id="profile-pic">
+                <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F593b2e4b31358e03e55a0e8c%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D634%26cropX2%3D2468%26cropY1%3D39%26cropY2%3D1874">
+            </div>
+
+            
         </nav>
         <section>
             <div>
-                <video width="500" height="400" controls> <source src="https://www.youtube.com/watch?v=V74l_zS1x8E" type="video/mp4"> <source src="https://www.youtube.com/watch?v=V74l_zS1x8E" type="video/ogg"> Your browser does not support the video tag. </video>
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/Vx7YkKpt-J4" 
+                frameborder="0" allow="accelerometer; 
+                autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture" allowfullscreen></iframe> 
             </div>
             <div>
                 <p>Video Title</p>
