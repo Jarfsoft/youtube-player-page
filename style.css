@@ -38,3 +38,32 @@ section {
     margin-left: 95px;
     margin-top:55px;
 }
+#profile-record{
+    display: flex;
+}
+#video-title{
+    margin-top: 15px;
+}
+#like{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+#dislike{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#share{
+    margin-top: 27px;
+    margin-left: 25px;
+}
+#subscribe{
+    margin-top: 27px;
+    margin-left: 25px;
+}
+#review-info{
+    display: flex;
+}
+aside{
+    margin-left: 200px;
+    display: flex;
+}
